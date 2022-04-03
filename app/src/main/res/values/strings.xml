@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lotus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goggles">Goggles</string>
+    <string name="seense">SEENSE</string>
+    <string name="farfetch">Frafetch</string>
+    <string name="assos">Assos</string>
+    <string name="sunflower">SunFlower</string>
+    <string name="acasis">Acasis</string>
+    <string name="sunshine">Sunshine</string>
+    <string name="lantana">Lantana</string>
+    <string name="pollinators">Pollinators</string>
+    <string name="galidaria">Galidaria</string>
+    <string name="calibrachoa">Calibrachoa </string>
+    <string name="favorite_flowers">Favorite Flowers</string>
+    <string name="write_mess">Напиши сообщение…</string>
+</resources>

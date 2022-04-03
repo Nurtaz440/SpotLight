@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/lotusFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.flower.LotusFragment"
+        android:label="fragment_lotus"
+        tools:layout="@layout/fragment_lotus" />
+    <fragment
+        android:id="@+id/clubFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.club.ClubFragment"
+        android:label="fragment_club"
+        tools:layout="@layout/fragment_club" />
+    <fragment
+        android:id="@+id/mentorsFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.club.mentors.MentorsFragment"
+        android:label="fragment_mentors"
+        tools:layout="@layout/fragment_mentors" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.club.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/meetingFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.club.metting.MeetingFragment"
+        android:label="fragment_meeting"
+        tools:layout="@layout/fragment_meeting" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="mening.dasturim.spotlight.ui.main.user.club.course.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+</navigation>

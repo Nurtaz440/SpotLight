@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@color/purple_700"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/ctb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:collapsedTitleTextColor="@color/black"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Lotus"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="320dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="16dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lotus3"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+                app:title=""
+                app:titleTextColor="@color/white"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FCDEFF"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Ботаническое описание"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Лотос орехоносный — многолетнее водное растение с узловатым корневищем, относящееся к тропическим реликтовым видам. Листья у лотоса плавающие, на длинных шиповатых черенках, имеют форму щита с впадиной посередине и покрыты восковым налётом, диаметр достигает 50-70 см. Цветки меняют окраску от ярко-розовой в начале цветения до почти белой перед опадением лепестков, распускаются всего на пару дней. Цветёт во второй половине лета, на нежный аромат цветков слетаются пчёлы и жуки, которые опыляют его. Цветки лотоса крупные, 25—30 см в диаметре, и высоко поднимаются над водой на прямой цветоножке. Они обладают слабым, но очень приятным ароматом."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Размножение"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Плод — коробочка. В ячейках до двадцати семян, похожих на твёрдые и крупные, коричневые орехи в плотной скорлупе. В сентябре после созревания семена опускаются на дно, где могут долго не прорастать. Размножается главным образом с помощью корневищ, так как его семенная продуктивность невелика."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Значение и применение"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Всё растение съедобно и применяется в лекарственных и пищевых целях[5].
+
+Мощные мясистые корневища богаты крахмалом, содержат до 2 % аспарагина, употребляются в пищу в странах восточной Азии сырыми, вареными и поджаренными[6].
+
+Содержащиеся в лотосе полезные вещества обладают антисептическим действием, повышают свёртываемость крови, снимают судороги, а отвар заживляет раны. Собирают листья в течение лета, нарезают на мелкие кусочки и засушивают. Готовят отвары, чаи и настойки, делают порошки и добавляют в пищу[источник не указан 133 дня].
+
+В зародышах семян Nelumbo nucifera найден бис-бензилизохинолиновый алкалоид Неферин, который по данным доклинических исследований ингибирует пролиферацию и миграцию раковых клеток[7]. Помимо противоракового действия Неферин обладает целым рядом иных терапевтических эффектов, таких как: антидиабетическое, антивозрастное, антимикробное, антитромботическое, антиаритмическое, противовоспалительное действие и даже способен противодействовать ВИЧ инфекции[8]"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Лотус клуб"
+                android:background="@color/purple_700"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
